@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="time"] {
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Estilos para los resultados */
+.resultados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.resultados label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.resultados input[type="text"] {
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Estilos para el tiempo salvado en rojo */
+.resultados input[type="text"].negativo {
+  color: red;
+}
